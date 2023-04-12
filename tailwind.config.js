@@ -41,6 +41,11 @@ module.exports = {
         "link-2": "11px",
         body: "28px",
       },
+      screens: {
+        sm: "375px",
+        md: "768px",
+        lg: "1440px",
+      },
     },
   },
   plugins: [],
