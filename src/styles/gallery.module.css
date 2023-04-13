@@ -1,0 +1,29 @@
+/* grid */
+.masonry {
+  display: flex;
+  margin-left: -2.5rem; /* gutter size offset */
+  max-width: 1360px;
+}
+
+.column {
+  padding-left: 2.5rem; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* grid items */
+.column > .figure {
+  position: relative;
+  margin-bottom: 2.5rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: linear-gradient(transparent, #000);
+  padding: 2rem;
+}

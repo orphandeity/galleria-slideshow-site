@@ -1,6 +1,17 @@
+import Gallery from "@/components/gallery";
+import type { GetStaticProps } from "next";
 import Head from "next/head";
+import data from "@/lib/data.json";
 
-export default function Home() {
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {
+      data,
+    },
+  };
+};
+
+export default function Home({ data }: HomePageProps) {
   return (
     <>
       <Head>
@@ -13,9 +24,7 @@ export default function Home() {
           sizes="32x32"
         />
       </Head>
-      <main>
-        <h1>hello world!</h1>
-      </main>
+      <Gallery paintings={data} />
     </>
   );
 }
