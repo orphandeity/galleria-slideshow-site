@@ -1,12 +1,9 @@
-import Image from "next/image";
-import styles from "@/styles/gallery.module.css";
-import Thumbnail from "./thumbnail";
+import { MasonryDesktop } from "./masonry/desktop";
 
 export default function Gallery({ paintings }: GalleryProps) {
-  // convert data to JSX elements
-  const items = paintings.map((painting) => (
-    <Thumbnail key={painting.name} painting={painting} />
-  ));
-
-  return <div className="flex flex-wrap">{items}</div>;
+  return (
+    <div className="grid place-content-center">
+      <MasonryDesktop data={paintings} />
+    </div>
+  );
 }
