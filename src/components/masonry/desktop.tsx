@@ -1,11 +1,7 @@
 import styles from "@/styles/gallery.module.css";
 import { MasonryColumn } from "./column";
 
-interface MasonryDesktopProps {
-  data: Painting[];
-}
-
-export function MasonryDesktop({ data }: MasonryDesktopProps) {
+export function MasonryDesktop({ data }: MasonryProps) {
   /**
    *  In order to achieve a natural looking masonry layout
    *  Divide the content into columns represented by empty arrays and

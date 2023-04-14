@@ -34,3 +34,7 @@ interface HomePageProps {
 interface GalleryProps {
   paintings: Painting[];
 }
+
+interface MasonryProps {
+  data: Painting[];
+}
