@@ -13,7 +13,10 @@ interface Artist {
 
 interface Images {
   thumbnail: ImageType;
-  hero: Record<string, ImageType>;
+  hero: {
+    small: ImageType;
+    large: ImageType;
+  };
   gallery: ImageType;
 }
 
@@ -24,6 +27,7 @@ interface Painting {
   source: string;
   artist: Artist;
   images: Images;
+  slug: string;
 }
 
 // page & component prop types
@@ -37,4 +41,8 @@ interface GalleryProps {
 
 interface MasonryProps {
   data: Painting[];
+}
+
+interface DetailsPageProps {
+  painting: Painting;
 }

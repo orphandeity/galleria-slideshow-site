@@ -20,26 +20,27 @@
         "small": {
           "image": "/assets/starry-night/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/starry-night/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/starry-night/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "917",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "starry-night"
   },
   {
     "name": "Girl with a Pearl Earring",
@@ -62,26 +63,27 @@
         "small": {
           "image": "/assets/girl-with-pearl-earring/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/girl-with-pearl-earring/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/girl-with-pearl-earring/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "519",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "girl-with-pearl-earring"
   },
   {
     "name": "Guernica",
@@ -104,26 +106,27 @@
         "small": {
           "image": "/assets/guernica/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/guernica/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/guernica/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "1253",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "guernica"
   },
   {
     "name": "Penitent Magdalene",
@@ -146,26 +149,27 @@
         "small": {
           "image": "/assets/penitent-magdalene/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/penitent-magdalene/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/penitent-magdalene/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "573",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "penitent-magdalene"
   },
   {
     "name": "The Storm on the Sea of Galilee",
@@ -188,26 +192,27 @@
         "small": {
           "image": "/assets/the-storm-on-the-sea-of-galilee/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/the-storm-on-the-sea-of-galilee/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/the-storm-on-the-sea-of-galilee/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "597",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "the-storm-on-the-sea-of-galilee"
   },
   {
     "name": "The Great Wave off Kanagawa",
@@ -230,26 +235,27 @@
         "small": {
           "image": "/assets/the-great-wave-off-kanagawa/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/the-great-wave-off-kanagawa/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/the-great-wave-off-kanagawa/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "809",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "the-great-wave-off-kanagawa"
   },
   {
     "name": "Van Gogh Self-portrait",
@@ -272,26 +278,27 @@
         "small": {
           "image": "/assets/van-gogh-self-portrait/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/van-gogh-self-portrait/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/van-gogh-self-portrait/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "597",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "van-gogh-self-portrait"
   },
   {
     "name": "The Sleeping Gypsy",
@@ -314,26 +321,27 @@
         "small": {
           "image": "/assets/the-sleeping-gypsy/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/the-sleeping-gypsy/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/the-sleeping-gypsy/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "1107",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "the-sleeping-gypsy"
   },
   {
     "name": "Lady with an Ermine",
@@ -356,26 +364,27 @@
         "small": {
           "image": "/assets/lady-with-an-ermine/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/lady-with-an-ermine/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/lady-with-an-ermine/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "537",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "lady-with-an-ermine"
   },
   {
     "name": "The Night Café",
@@ -398,26 +407,27 @@
         "small": {
           "image": "/assets/the-night-cafe/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/the-night-cafe/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/the-night-cafe/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "947",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "the-night-cafe"
   },
   {
     "name": "The Basket of Apples",
@@ -440,26 +450,27 @@
         "small": {
           "image": "/assets/the-basket-of-apples/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/the-basket-of-apples/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/the-basket-of-apples/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "869",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "the-basket-of-apples"
   },
   {
     "name": "The Boy in the Red Vest",
@@ -482,26 +493,27 @@
         "small": {
           "image": "/assets/the-boy-in-the-red-vest/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/the-boy-in-the-red-vest/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/the-boy-in-the-red-vest/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "597",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "the-boy-in-the-red-vest"
   },
   {
     "name": "Arnolfini Portrait",
@@ -524,26 +536,27 @@
         "small": {
           "image": "/assets/arnolfini-portrait/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "566"
           }
         },
         "large": {
           "image": "/assets/arnolfini-portrait/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/arnolfini-portrait/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "509",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "arnolfini-portrait"
   },
   {
     "name": "Mona Lisa",
@@ -566,26 +579,27 @@
         "small": {
           "image": "/assets/mona-lisa/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "564"
           }
         },
         "large": {
           "image": "/assets/mona-lisa/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/mona-lisa/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "509",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "mona-lisa"
   },
   {
     "name": "The Swing",
@@ -608,25 +622,26 @@
         "small": {
           "image": "/assets/the-swing/hero-small.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "654",
+            "height": "560"
           }
         },
         "large": {
           "image": "/assets/the-swing/hero-large.jpg",
           "size": {
-            "width": "",
-            "height": ""
+            "width": "950",
+            "height": "1120"
           }
         }
       },
       "gallery": {
         "image": "/assets/the-swing/gallery.jpg",
         "size": {
-          "width": "",
-          "height": ""
+          "width": "585",
+          "height": "712"
         }
       }
-    }
+    },
+    "slug": "the-swing"
   }
 ]

@@ -1,7 +1,7 @@
 import styles from "@/styles/gallery.module.css";
-import useMediaQuery from "@/lib/useMediaQuery";
 import { MasonryDesktop } from "./masonry/desktop";
 import { MasonryTablet } from "./masonry/tablet";
+import useMediaQuery from "@/lib/useMediaQuery";
 import Thumbnail from "./thumbnail";
 
 export default function Gallery({ paintings }: GalleryProps) {

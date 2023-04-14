@@ -3,7 +3,7 @@ import type { GetStaticProps } from "next";
 import Head from "next/head";
 import data from "@/lib/data.json";
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps = () => {
   return {
     props: {
       data,

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,13 +11,15 @@ export default function Layout({ children }: LayoutProps) {
     <>
       <header className="mx-6 md:mx-10">
         <div className="flex items-center justify-between py-6 md:py-7 lg:py-10">
-          <Image
-            src={"./logo.svg"}
-            alt=""
-            width={170}
-            height={48}
-            className="h-8 w-[113px] lg:h-12 lg:w-[170px]"
-          />
+          <Link href={"/"}>
+            <Image
+              src={"./logo.svg"}
+              alt=""
+              width={170}
+              height={48}
+              className="h-8 w-[113px] lg:h-12 lg:w-[170px]"
+            />
+          </Link>
           <span className="text-link-2 font-bold uppercase leading-link-2 tracking-link-2 md:text-link-1 md:leading-link-1 md:tracking-link-1">
             start slideshow
           </span>
