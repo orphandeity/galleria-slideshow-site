@@ -46,3 +46,7 @@ interface MasonryProps {
 interface DetailsPageProps {
   painting: Painting;
 }
+
+interface ModalProps {
+  painting: Painting;
+}

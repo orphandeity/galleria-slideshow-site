@@ -2,6 +2,7 @@ import type { GetStaticPaths, GetStaticProps } from "next";
 import data from "@/lib/data.json";
 import Image from "next/image";
 import useMediaQuery from "@/lib/useMediaQuery";
+import Modal from "@/components/modal";
 
 export const getStaticPaths: GetStaticPaths = () => {
   const paths = data.map((painting) => ({
@@ -44,7 +45,7 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
     : painting.images.hero.small.size.height;
 
   return (
-    <div className="m-6 flex flex-col items-center gap-[6.125rem] md:m-10 md:gap-[8.6875rem] lg:mt-[6.25rem] lg:max-w-[1360px] lg:flex-row lg:gap-[410px]">
+    <div className="flex flex-col items-center gap-[6.125rem] p-6 md:mx-auto md:max-w-3xl md:gap-[8.6875rem] md:py-10 lg:mt-[6.25rem] lg:max-w-[1360px] lg:flex-row lg:gap-[410px] lg:p-0">
       <div className="relative md:self-start">
         <div className="relative">
           <Image
@@ -55,10 +56,7 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
             height={heroHeight}
             className="h-[280px] w-[327px] md:h-[560px] md:w-[475px]"
           />
-          <button className="absolute left-4 top-4 flex w-[9.5rem] items-center justify-between bg-black/75 px-4 py-[0.875rem] text-[0.625rem] uppercase leading-link-2 tracking-[2.14px] text-white md:top-[31.5rem]">
-            <Image src={"/icon-view-image.svg"} alt="" width={12} height={12} />
-            <span>view image</span>
-          </button>
+          <Modal painting={painting} />
         </div>
 
         <div className="absolute -bottom-28 flex flex-col md:left-1/2 md:top-0 lg:left-[410px] lg:h-[560px]">
@@ -81,7 +79,7 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
       </div>
 
       <div className="flex flex-col text-_gray-300 md:relative">
-        <span className="self-end text-[6.25rem] font-bold leading-[6.25rem] text-_gray-100 md:absolute md:-left-1/4 md:top-0 md:-translate-y-1/2 md:text-display md:leading-display lg:static lg:translate-y-0">
+        <span className="self-end text-[6.25rem] font-bold leading-[6.25rem] text-_gray-100 md:absolute md:-left-1/4 md:top-0 md:-translate-x-4 md:-translate-y-1/2 md:text-display md:leading-display lg:static lg:translate-x-0 lg:translate-y-0">
           {painting.year}
         </span>
 
