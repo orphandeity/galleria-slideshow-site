@@ -3,8 +3,15 @@ import { MasonryDesktop } from "./masonry/desktop";
 import { MasonryTablet } from "./masonry/tablet";
 import useMediaQuery from "@/lib/useMediaQuery";
 import Thumbnail from "./thumbnail";
+import { useEffect, useState } from "react";
 
 export default function Gallery({ paintings }: GalleryProps) {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const tablet = useMediaQuery("(min-width: 768px)");
   const desktop = useMediaQuery("(min-width: 1440px)");
 
@@ -13,6 +20,8 @@ export default function Gallery({ paintings }: GalleryProps) {
       <Thumbnail painting={painting} />
     </li>
   ));
+
+  if (!isMounted) return null;
 
   return (
     <div className="grid place-content-center">
