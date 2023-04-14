@@ -1,5 +1,5 @@
 .desktop {
-  max-width: fit-content;
+  max-width: 1360px;
   margin: 2.5rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

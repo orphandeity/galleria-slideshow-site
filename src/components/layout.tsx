@@ -9,8 +9,8 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <>
-      <header className="mx-6 md:mx-10">
-        <div className="flex items-center justify-between py-6 md:py-7 lg:py-10">
+      <header className="mx-auto max-w-[1360px]">
+        <div className="mx-6 flex items-center justify-between py-6 md:mx-10 md:py-7 lg:mx-0 lg:py-10">
           <Link href={"/"}>
             <Image
               src={"./logo.svg"}
