@@ -3,7 +3,6 @@ import Link from "next/link";
 
 interface LayoutProps {
   children: React.ReactNode;
-  className?: string;
 }
 
 export default function Layout({ children }: LayoutProps) {
@@ -20,9 +19,9 @@ export default function Layout({ children }: LayoutProps) {
               className="h-8 w-[113px] lg:h-12 lg:w-[170px]"
             />
           </Link>
-          <span className="text-link-2 font-bold uppercase leading-link-2 tracking-link-2 md:text-link-1 md:leading-link-1 md:tracking-link-1">
+          <button className="text-link-2 font-bold uppercase leading-link-2 tracking-link-2 md:text-link-1 md:leading-link-1 md:tracking-link-1">
             start slideshow
-          </span>
+          </button>
         </div>
         <hr />
       </header>

@@ -88,7 +88,7 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
 
         <a
           href={painting.source}
-          className="mt-[4.25rem] text-link-2 font-bold uppercase tracking-link-2"
+          className="mt-[4.25rem] text-link-2 font-bold uppercase tracking-link-2 underline"
         >
           go to source
         </a>
