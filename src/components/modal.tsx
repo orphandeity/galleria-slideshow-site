@@ -29,6 +29,7 @@ export default function Modal({ painting }: ModalProps) {
             alt={`${painting.name} by ${painting.artist.name}`}
             width={painting.images.gallery.size.width}
             height={painting.images.gallery.size.height}
+            className="h-auto max-w-[327px] md:max-w-[670px] lg:h-[712px] lg:max-w-fit"
           />
         </Dialog.Content>
       </Dialog.Portal>

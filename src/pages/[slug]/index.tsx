@@ -46,12 +46,14 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
   return (
     <div className="flex flex-col items-center gap-[6.125rem] p-6 md:mx-auto md:max-w-3xl md:gap-[8.6875rem] md:py-10 lg:mt-[6.25rem] lg:max-w-[1360px] lg:flex-row lg:gap-[410px] lg:p-0">
       <div className="relative md:self-start">
-        <div className="relative h-[280px] w-[327px] md:h-[560px] md:w-[475px]">
+        <div className="relative">
           <Image
             priority
             src={heroImage}
             alt={`${painting.name} by ${painting.artist.name}`}
-            fill
+            width={heroWidth}
+            height={heroHeight}
+            className="h-[280px] w-[327px] md:h-[560px] md:w-[475px]"
           />
           <Modal painting={painting} />
         </div>
