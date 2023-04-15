@@ -52,6 +52,7 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
             src={heroImage}
             alt={`${painting.name} by ${painting.artist.name}`}
             fill
+            placeholder="blur"
           />
           <Modal painting={painting} />
         </div>
