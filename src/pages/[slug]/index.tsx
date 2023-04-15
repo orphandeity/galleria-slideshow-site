@@ -36,11 +36,11 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
     : painting.images.hero.small.image;
 
   const heroWidth = tablet
-    ? painting.images.hero.large.size.width / 2
+    ? painting.images.hero.large.size.width
     : painting.images.hero.small.size.width;
 
   const heroHeight = tablet
-    ? painting.images.hero.large.size.height / 2
+    ? painting.images.hero.large.size.height
     : painting.images.hero.small.size.height;
 
   return (
@@ -52,7 +52,6 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
             src={heroImage}
             alt={`${painting.name} by ${painting.artist.name}`}
             fill
-            placeholder="blur"
           />
           <Modal painting={painting} />
         </div>
