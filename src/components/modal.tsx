@@ -24,6 +24,7 @@ export default function Modal({ painting }: ModalProps) {
             <button>close</button>
           </Dialog.Close>
           <Image
+            priority
             src={painting.images.gallery.image}
             alt={`${painting.name} by ${painting.artist.name}`}
             width={painting.images.gallery.size.width}
