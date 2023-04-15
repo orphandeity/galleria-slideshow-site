@@ -2,13 +2,14 @@ import * as Dialog from "@radix-ui/react-dialog";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 import styles from "@/styles/modal.module.css";
 import Image from "next/image";
+import ViewImageIcon from "@/assets/icon-view-image.svg";
 
 export default function Modal({ painting }: ModalProps) {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
         <button className="absolute left-4 top-4 flex w-[9.5rem] items-center justify-between bg-black/75 px-4 py-[0.875rem] text-[0.625rem] uppercase leading-link-2 tracking-[2.14px] text-white hover:bg-white/25 md:top-[31.5rem]">
-          <Image src={"/icon-view-image.svg"} alt="" width={12} height={12} />
+          <Image src={ViewImageIcon} alt="" />
           <span>view image</span>
         </button>
       </Dialog.Trigger>

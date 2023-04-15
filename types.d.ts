@@ -28,6 +28,11 @@ interface Painting {
   artist: Artist;
   images: Images;
   slug: string;
+  nav: {
+    slug: string;
+    next: string;
+    prev: string;
+  };
 }
 
 // page & component prop types
@@ -48,5 +53,9 @@ interface DetailsPageProps {
 }
 
 interface ModalProps {
+  painting: Painting;
+}
+
+interface SlideshowProps {
   painting: Painting;
 }

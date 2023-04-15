@@ -9,7 +9,7 @@ interface ThumbnailProps {
 export default function Thumbnail({ painting }: ThumbnailProps) {
   return (
     <Link
-      href={`/${painting.slug}`}
+      href={`/${painting.nav.slug}`}
       className="relative after:absolute after:inset-0 after:z-10 hover:after:bg-white/50"
     >
       <figure key={painting.name} className={styles.figure}>

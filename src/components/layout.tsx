@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "@/assets/logo.svg";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,10 +13,9 @@ export default function Layout({ children }: LayoutProps) {
         <div className="mx-6 flex items-center justify-between py-6 md:mx-10 md:py-7 lg:mx-0 lg:py-10">
           <Link href={"/"}>
             <Image
-              src={"./logo.svg"}
+              priority
+              src={Logo}
               alt=""
-              width={170}
-              height={48}
               className="h-8 w-[113px] lg:h-12 lg:w-[170px]"
             />
           </Link>

@@ -40,7 +40,11 @@
         }
       }
     },
-    "slug": "starry-night"
+    "nav": {
+      "slug": "starry-night",
+      "next": "/girl-with-pearl-earring",
+      "prev": "/the-swing"
+    }
   },
   {
     "name": "Girl with a Pearl Earring",
@@ -83,7 +87,11 @@
         }
       }
     },
-    "slug": "girl-with-pearl-earring"
+    "nav": {
+      "slug": "girl-with-pearl-earring",
+      "next": "/guernica",
+      "prev": "/starry-night"
+    }
   },
   {
     "name": "Guernica",
@@ -126,7 +134,11 @@
         }
       }
     },
-    "slug": "guernica"
+    "nav": {
+      "slug": "guernica",
+      "next": "/penitent-magdalene",
+      "prev": "/girl-with-pearl-earring"
+    }
   },
   {
     "name": "Penitent Magdalene",
@@ -169,7 +181,11 @@
         }
       }
     },
-    "slug": "penitent-magdalene"
+    "nav": {
+      "slug": "penitent-magdalene",
+      "next": "/the-storm-on-the-sea-of-galilee",
+      "prev": "/guernica"
+    }
   },
   {
     "name": "The Storm on the Sea of Galilee",
@@ -212,7 +228,11 @@
         }
       }
     },
-    "slug": "the-storm-on-the-sea-of-galilee"
+    "nav": {
+      "slug": "the-storm-on-the-sea-of-galilee",
+      "next": "/the-great-wave-off-kanagawa",
+      "prev": "/penitent-magdalene"
+    }
   },
   {
     "name": "The Great Wave off Kanagawa",
@@ -255,7 +275,11 @@
         }
       }
     },
-    "slug": "the-great-wave-off-kanagawa"
+    "nav": {
+      "slug": "the-great-wave-off-kanagawa",
+      "next": "/van-gogh-self-portrait",
+      "prev": "/the-storm-on-the-sea-of-galilee"
+    }
   },
   {
     "name": "Van Gogh Self-portrait",
@@ -298,7 +322,11 @@
         }
       }
     },
-    "slug": "van-gogh-self-portrait"
+    "nav": {
+      "slug": "van-gogh-self-portrait",
+      "next": "/the-sleeping-gypsy",
+      "prev": "/the-great-wave-off-kanagawa"
+    }
   },
   {
     "name": "The Sleeping Gypsy",
@@ -341,7 +369,11 @@
         }
       }
     },
-    "slug": "the-sleeping-gypsy"
+    "nav": {
+      "slug": "the-sleeping-gypsy",
+      "next": "/lady-with-an-ermine",
+      "prev": "/van-gogh-self-portrait"
+    }
   },
   {
     "name": "Lady with an Ermine",
@@ -384,7 +416,11 @@
         }
       }
     },
-    "slug": "lady-with-an-ermine"
+    "nav": {
+      "slug": "lady-with-an-ermine",
+      "next": "/the-night-cafe",
+      "prev": "/the-sleeping-gypsy"
+    }
   },
   {
     "name": "The Night Café",
@@ -427,7 +463,11 @@
         }
       }
     },
-    "slug": "the-night-cafe"
+    "nav": {
+      "slug": "the-night-cafe",
+      "next": "/the-basket-of-apples",
+      "prev": "/lady-with-an-ermine"
+    }
   },
   {
     "name": "The Basket of Apples",
@@ -470,7 +510,11 @@
         }
       }
     },
-    "slug": "the-basket-of-apples"
+    "nav": {
+      "slug": "the-basket-of-apples",
+      "next": "/the-boy-in-the-red-vest",
+      "prev": "/the-night-cafe"
+    }
   },
   {
     "name": "The Boy in the Red Vest",
@@ -513,7 +557,11 @@
         }
       }
     },
-    "slug": "the-boy-in-the-red-vest"
+    "nav": {
+      "slug": "the-boy-in-the-red-vest",
+      "next": "/arnolfini-portrait",
+      "prev": "/the-basket-of-apples"
+    }
   },
   {
     "name": "Arnolfini Portrait",
@@ -556,7 +604,11 @@
         }
       }
     },
-    "slug": "arnolfini-portrait"
+    "nav": {
+      "slug": "arnolfini-portrait",
+      "next": "/mona-lisa",
+      "prev": "/the-boy-in-the-red-vest"
+    }
   },
   {
     "name": "Mona Lisa",
@@ -599,7 +651,11 @@
         }
       }
     },
-    "slug": "mona-lisa"
+    "nav": {
+      "slug": "mona-lisa",
+      "next": "/the-swing",
+      "prev": "/arnolfini-portrait"
+    }
   },
   {
     "name": "The Swing",
@@ -642,6 +698,10 @@
         }
       }
     },
-    "slug": "the-swing"
+    "nav": {
+      "slug": "the-swing",
+      "next": "/starry-night",
+      "prev": "/mona-lisa"
+    }
   }
 ]

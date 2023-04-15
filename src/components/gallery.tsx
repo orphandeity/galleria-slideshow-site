@@ -21,6 +21,7 @@ export default function Gallery({ paintings }: GalleryProps) {
     </li>
   ));
 
+  // return null on server
   if (!isMounted) return null;
 
   return (
