@@ -79,7 +79,7 @@ export default function Slideshow({ painting, paintingIndex }: SlideshowProps) {
             <Image
               src={BackIcon}
               alt=""
-              className="h-4 w-auto hover:opacity-50 group-disabled:opacity-[15%] group-disabled:hover:opacity-[15%] md:h-6"
+              className="h-4 w-auto transition-opacity hover:opacity-50 group-disabled:opacity-[15%] group-disabled:hover:opacity-[15%] md:h-6"
             />
           </button>
           <button
@@ -90,7 +90,7 @@ export default function Slideshow({ painting, paintingIndex }: SlideshowProps) {
             <Image
               src={NextIcon}
               alt=""
-              className="h-4 w-auto hover:opacity-50 group-disabled:opacity-[15%] group-disabled:hover:opacity-[15%] md:h-6"
+              className="h-4 w-auto transition-opacity hover:opacity-50 group-disabled:opacity-[15%] group-disabled:hover:opacity-[15%] md:h-6"
             />
           </button>
         </fieldset>

@@ -97,7 +97,7 @@ export default function DetailsPage({
 
           <a
             href={painting.source}
-            className="mt-[4.25rem] text-link-2 font-bold uppercase tracking-link-2 underline hover:text-black"
+            className="mt-[4.25rem] text-link-2 font-bold uppercase tracking-link-2 underline transition-colors hover:text-black"
           >
             go to source
           </a>

@@ -47,7 +47,7 @@ export default function Layout({ children }: LayoutProps) {
             onClick={
               slideshow.isPlaying ? handleStopSlideshow : handleStartSlideshow
             }
-            className="text-link-2 font-bold uppercase leading-link-2 tracking-link-2 text-_gray-300 hover:text-black md:text-link-1 md:leading-link-1 md:tracking-link-1"
+            className="text-link-2 font-bold uppercase leading-link-2 tracking-link-2 text-_gray-300 transition-colors hover:text-black md:text-link-1 md:leading-link-1 md:tracking-link-1"
           >
             {slideshow.isPlaying ? "stop slideshow" : "start slideshow"}
           </button>
