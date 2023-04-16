@@ -30,8 +30,8 @@ interface Painting {
   slug: string;
   nav: {
     slug: string;
-    next: string;
-    prev: string;
+    next?: string;
+    prev?: string;
   };
 }
 
@@ -50,6 +50,7 @@ interface MasonryProps {
 
 interface DetailsPageProps {
   painting: Painting;
+  paintingIndex: string[];
 }
 
 interface ModalProps {
@@ -58,4 +59,5 @@ interface ModalProps {
 
 interface SlideshowProps {
   painting: Painting;
+  paintingIndex: string[];
 }

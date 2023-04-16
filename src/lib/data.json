@@ -42,8 +42,7 @@
     },
     "nav": {
       "slug": "starry-night",
-      "next": "/girl-with-pearl-earring",
-      "prev": "/the-swing"
+      "next": "/girl-with-pearl-earring"
     }
   },
   {
@@ -700,7 +699,6 @@
     },
     "nav": {
       "slug": "the-swing",
-      "next": "/starry-night",
       "prev": "/mona-lisa"
     }
   }

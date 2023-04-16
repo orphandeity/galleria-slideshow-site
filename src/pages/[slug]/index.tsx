@@ -21,14 +21,21 @@ export const getStaticProps: GetStaticProps = (context) => {
   const slug = context.params?.slug;
   const [painting] = data.filter((d) => d.nav.slug === slug);
 
+  // data array for progress bar
+  const paintingIndex = data.map((d) => d.nav.slug);
+
   return {
     props: {
       painting,
+      paintingIndex,
     },
   };
 };
 
-export default function DetailsPage({ painting }: DetailsPageProps) {
+export default function DetailsPage({
+  painting,
+  paintingIndex,
+}: DetailsPageProps) {
   // determine image size with media query
   const tablet = useMediaQuery("(min-width: 768px)");
 
@@ -90,14 +97,14 @@ export default function DetailsPage({ painting }: DetailsPageProps) {
 
           <a
             href={painting.source}
-            className="mt-[4.25rem] text-link-2 font-bold uppercase tracking-link-2 underline"
+            className="mt-[4.25rem] text-link-2 font-bold uppercase tracking-link-2 underline hover:text-black"
           >
             go to source
           </a>
         </div>
       </div>
 
-      <Slideshow painting={painting} />
+      <Slideshow painting={painting} paintingIndex={paintingIndex} />
     </>
   );
 }

@@ -1,12 +1,31 @@
-import Image from "next/image";
+import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 import Logo from "@/assets/logo.svg";
+import { useContext } from "react";
+import { SlideshowContext } from "@/lib/context";
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 export default function Layout({ children }: LayoutProps) {
+  const router = useRouter();
+
+  const slideshow = useContext(SlideshowContext);
+
+  function handleStartSlideshow() {
+    slideshow?.setIsPlaying(true);
+    router.push("/starry-night");
+  }
+
+  function handleStopSlideshow() {
+    slideshow?.setIsPlaying(false);
+    router.push("/");
+  }
+
+  if (!slideshow) return null;
+
   return (
     <>
       <header className="mx-auto max-w-[1360px]">
@@ -19,8 +38,13 @@ export default function Layout({ children }: LayoutProps) {
               className="h-8 w-[113px] lg:h-12 lg:w-[170px]"
             />
           </Link>
-          <button className="text-link-2 font-bold uppercase leading-link-2 tracking-link-2 md:text-link-1 md:leading-link-1 md:tracking-link-1">
-            start slideshow
+          <button
+            onClick={
+              slideshow.isPlaying ? handleStopSlideshow : handleStartSlideshow
+            }
+            className="text-link-2 font-bold uppercase leading-link-2 tracking-link-2 text-_gray-300 hover:text-black md:text-link-1 md:leading-link-1 md:tracking-link-1"
+          >
+            {slideshow.isPlaying ? "stop slideshow" : "start slideshow"}
           </button>
         </div>
         <hr />
