@@ -32,14 +32,17 @@ export default function Layout({ children }: LayoutProps) {
     <>
       <header className="mx-auto max-w-[1360px]">
         <div className="mx-6 flex items-center justify-between py-6 md:mx-10 md:py-7 lg:mx-0 lg:py-10">
-          <Link href={"/"}>
-            <Image
-              priority
-              src={Logo}
-              alt=""
-              className="h-8 w-[113px] lg:h-12 lg:w-[170px]"
-            />
-          </Link>
+          <Image
+            priority
+            src={Logo}
+            alt=""
+            className="h-8 w-[113px] lg:h-12 lg:w-[170px]"
+            role="button"
+            onClick={() => {
+              slideshow.setIsPlaying(false);
+              router.push("/");
+            }}
+          />
           <button
             onClick={
               slideshow.isPlaying ? handleStopSlideshow : handleStartSlideshow

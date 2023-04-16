@@ -53,7 +53,7 @@ export default function DetailsPage({
 
   return (
     <>
-      <div className="mx-6 mb-24 mt-6 flex flex-col items-center gap-[6.125rem] md:mx-auto md:mb-14 md:mt-10 md:max-w-3xl md:gap-[8.6875rem] lg:mb-32 lg:mt-[6.25rem] lg:max-w-[1360px] lg:flex-row lg:gap-[410px] lg:p-0">
+      <div className="mx-6 mb-24 mt-6 flex flex-col items-center gap-[6.125rem] md:mx-auto md:mb-14 md:mt-10 md:max-w-3xl md:gap-[8.6875rem] md:px-10 lg:mb-32 lg:mt-[6.25rem] lg:max-w-[1360px] lg:flex-row lg:gap-[410px] lg:p-0 lg:px-0">
         <div className="relative md:self-start">
           <div className="relative">
             <Image

@@ -18,6 +18,7 @@ export default function Slideshow({ painting, paintingIndex }: SlideshowProps) {
         router.push(painting.nav.next);
       } else {
         router.push("/");
+        slideshow?.setIsPlaying(false);
       }
     }
 

@@ -12,20 +12,20 @@ export default function Transition({
     out: {
       opacity: 0,
       transition: {
-        duration: 0.75,
+        duration: 0.65,
       },
     },
     in: {
       opacity: 1,
       transition: {
-        duration: 0.75,
+        duration: 0.65,
         delay: 0.5,
       },
     },
   };
 
   return (
-    <AnimatePresence initial={false} mode="wait">
+    <AnimatePresence initial={false} mode="sync">
       <motion.div
         layout
         variants={variants}
