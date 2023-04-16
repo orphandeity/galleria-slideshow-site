@@ -14,7 +14,7 @@ export default function Transition({
       x: 2000,
       transition: {
         ease: "easeInOut",
-        duration: 0.75,
+        duration: 0.65,
       },
     },
     in: {
@@ -22,7 +22,7 @@ export default function Transition({
       x: 0,
       transition: {
         ease: "easeInOut",
-        duration: 0.75,
+        duration: 0.65,
       },
     },
     exit: {
@@ -30,15 +30,18 @@ export default function Transition({
       x: -2000,
       transition: {
         ease: "easeInOut",
-        duration: 0.75,
+        duration: 0.65,
       },
     },
   };
 
   return (
-    <AnimatePresence initial={false} mode="wait">
+    <AnimatePresence
+      mode="wait"
+      initial={false}
+      onExitComplete={() => window.scrollTo(0, 0)}
+    >
       <motion.div
-        layout
         variants={variants}
         animate="in"
         initial="out"
