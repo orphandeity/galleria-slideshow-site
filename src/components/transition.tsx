@@ -11,29 +11,26 @@ export default function Transition({
   const variants = {
     out: {
       opacity: 0,
-      x: 3000,
+      x: 2000,
       transition: {
-        type: "tween",
-        ease: "easeIn",
-        duration: 0.65,
+        ease: "easeInOut",
+        duration: 0.75,
       },
     },
     in: {
       opacity: 1,
       x: 0,
       transition: {
-        type: "tween",
-        ease: "easeIn",
-        duration: 0.65,
+        ease: "easeInOut",
+        duration: 0.75,
       },
     },
     exit: {
       opacity: 0,
       x: -2000,
       transition: {
-        type: "tween",
-        ease: "backIn",
-        duration: 0.65,
+        ease: "easeInOut",
+        duration: 0.75,
       },
     },
   };
