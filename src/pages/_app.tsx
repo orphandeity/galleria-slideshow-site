@@ -10,12 +10,12 @@ const libreBaskerville = Libre_Baskerville({
   variable: "--font-libre-baskerville",
 });
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <div className={`${libreBaskerville.variable} font-serif`}>
       <SlideshowContextProvider>
         <Layout>
-          <Component {...pageProps} />
+          <Component {...pageProps} key={router.asPath} />
         </Layout>
       </SlideshowContextProvider>
     </div>

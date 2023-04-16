@@ -4,6 +4,8 @@ import Image from "next/image";
 import Logo from "@/assets/logo.svg";
 import { useContext } from "react";
 import { SlideshowContext } from "@/lib/context";
+import { motion } from "framer-motion";
+import Transition from "./transition";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -49,8 +51,9 @@ export default function Layout({ children }: LayoutProps) {
         </div>
         <hr />
       </header>
-      <main>{children}</main>
-      <footer></footer>
+      <main>
+        <Transition>{children}</Transition>
+      </main>
     </>
   );
 }
